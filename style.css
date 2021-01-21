@@ -1,0 +1,37 @@
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+18,fe9090+18,ff5c5c+76 */
+background: #febbbb; /* Old browsers */
+background: -moz-linear-gradient(left,  #febbbb 0%, #fe9090 18%, #fe9090 18%, #ff5c5c 76%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #febbbb 0%,#fe9090 18%,#fe9090 18%,#ff5c5c 76%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #febbbb 0%,#fe9090 18%,#fe9090 18%,#ff5c5c 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=1 ); /* IE6-9 */
+position: relative;
+
+}
+.clock-face{
+    display: flex;
+    border:  solid 10px rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.hand{
+    width: 50%;
+    height: 4px;
+    position: absolute;
+    top:50%;
+    background-color: brown;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    /* transition: all 0.05s; */
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+
+}
+
+
